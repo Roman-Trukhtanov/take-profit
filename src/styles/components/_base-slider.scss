@@ -1,0 +1,36 @@
+.base-slider {
+  position: relative;
+
+  &__title-wrap {
+    margin-bottom: rem(8);
+  }
+
+  &__title {
+    font-size: rem(12);
+    font-weight: 400;
+    line-height: 134%;
+    color: $c-light-gray;
+  }
+
+  &__main-wrap {
+    display: flex;
+    align-items: center;
+  }
+
+  &__slider-wrap {
+    display: flex;
+    flex-grow: 1;
+    padding: 0 rem(8);
+  }
+
+  &__value {
+    display: block;
+    min-width: rem(32);
+    margin-left: rem(8);
+    font-weight: 500;
+    font-size: rem(12);
+    line-height: 134%;
+    text-align: right;
+    color: $c-white;
+  }
+}

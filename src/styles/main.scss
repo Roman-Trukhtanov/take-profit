@@ -1,0 +1,16 @@
+@import "variables";
+@import "mixins";
+@import "functions";
+@import "fonts";
+@import "globalStyles";
+
+// COMPONENTS
+@import "components/app";
+@import "components/take-profit";
+@import "components/take-profit-item";
+@import "components/price-input";
+@import "components/base-slider";
+
+// UI-KIT
+@import "ui-kit/cross-button";
+@import "ui-kit/add-button";

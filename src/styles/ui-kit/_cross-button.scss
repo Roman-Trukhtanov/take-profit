@@ -1,0 +1,49 @@
+.cross-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  min-width: auto;
+  border: none;
+  outline: none;
+
+  svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  &_normal {
+    width: rem(24);
+    height: rem(24);
+  }
+
+  &_medium {
+    width: rem(20);
+    height: rem(20);
+  }
+
+  &_gray {
+    background-color: rgba($c-light-gray, 0.3);
+    color: $c-light-gray;
+
+    @media (hover: hover) {
+      &:hover,
+      &:focus {
+        background-color: rgba($c-light-gray, 0.4);
+      }
+    }
+  }
+
+  &_red {
+    background-color: rgba($c-red, 0.3);
+    color: $c-red;
+
+    @media (hover: hover) {
+      &:hover,
+      &:focus {
+        background-color: rgba($c-red, 0.4);
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+.take-profit-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  &__wrap {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    padding: rem(8) rem(16);
+    background: linear-gradient(180deg, #1c1e2b 0%, #161822 100%);
+    box-shadow:
+      0 rem(4) rem(6) rgba(8, 9, 13, 0.25),
+      0 rem(1) rem(4) rgba(8, 9, 13, 0.08),
+      0 rem(1) rem(1) rgba(8, 9, 13, 0.24)
+    ;
+    border-radius: rem(32);
+  }
+
+  &__currency {
+    display: flex;
+    align-items: center;
+  }
+
+  &__icon-wrap {
+    margin-right: rem(7);
+  }
+
+  &__usdt-short-icon {
+    display: block;
+    width: rem(16);
+    height: rem(16);
+  }
+
+  &__value {
+    font-size: rem(12);
+    line-height: 134%;
+    font-weight: 600;
+    color: $c-white;
+  }
+
+  &__percent {
+    display: block;
+    margin-left: auto;
+    margin-right: rem(4);
+    font-size: rem(12);
+    line-height: 134%;
+    font-weight: 600;
+    font-style: normal;
+    color: $c-white;
+  }
+
+  // DELETE
+  &__delete-btn-wrap {
+    margin-left: rem(18);
+  }
+}

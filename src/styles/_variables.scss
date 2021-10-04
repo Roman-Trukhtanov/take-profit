@@ -1,0 +1,41 @@
+// SIZES
+$root-font-size: 16px;
+
+// TRANSITIONS
+$default-transition-duration: 0.35s;
+$fast-transition-duration: 0.15s;
+$super-fast-transition-duration: 0.05s;
+$long-transition-duration: 1s;
+$default-transition-function: ease-out;
+
+// FONTS
+$default-font-family: SFProText, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+$font-sf-pro-rounded: SFProRounded, Roboto, sans-serif;
+
+// BREAKPOINTS
+$breakpoint-xl: 1920px;
+$breakpoint-xm: 1680px;
+$breakpoint-lm: 1440px;
+$breakpoint-lg: 1280px;
+$breakpoint-md: 1024px;
+$breakpoint-sm: 768px;
+$breakpoint-xs: 568px;
+
+$base-desktop-width: 1440;
+$default-height: 800;
+$min-mobile-width: 375;
+$min-zoom-width: 1025;
+$max-zoom-width: 1920;
+
+// COLORS
+$c-white: #fff;
+$c-black: #000;
+$base-bg-color: #161617;
+$c-primary: #0e1018;
+$c-secondary: #5683ff;
+$c-yellow: #eebb50;
+$c-dark-gray: #1f212c;
+$c-red: #bf3b4b;
+$c-light-green: #31b984;
+$c-light-gray: #818c99;
+$c-bg-input: #303243;

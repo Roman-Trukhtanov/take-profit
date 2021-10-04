@@ -1,0 +1,50 @@
+.price-input {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: rem(6) rem(44);
+  border-radius: rem(8);
+  background-color: $c-bg-input;
+
+  &__icon-wrap {
+    position: absolute;
+    top: calc(50% - #{rem(12)});
+    left: rem(12);
+  }
+
+  &__usdt-icon {
+    display: block;
+    width: rem(24);
+    height: rem(24);
+  }
+
+  &__right-icon {
+    display: block;
+    width: rem(24);
+    height: rem(24);
+  }
+
+  &__input-wrap {
+    flex-grow: 1;
+  }
+
+  &__exchange-wrap {
+    position: absolute;
+    top: calc(50% - #{rem(12)});
+    right: rem(12);
+  }
+
+  &__exchange-btn {
+    padding: 0;
+    width: rem(24);
+    height: rem(24);
+    background-color: transparent;
+
+    svg {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
